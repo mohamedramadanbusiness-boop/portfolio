@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Muhammad Elnady</title>
+    <meta
+      name="description"
+      content="Contact Muhammad Elnady via WhatsApp or email."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FAVICON: replace this image path with your photo/favicon file -->
+    <link rel="icon" type="image/jpeg" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="contact-page">
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand">
+          <span class="brand__text">Muhammad Elnady</span>
+        </a>
+
+        <div class="nav-actions">
+          <button
+            class="icon-btn theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle light and dark mode"
+            title="Toggle theme"
+          >
+            <span class="theme-toggle__sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3V5.5M12 18.5V21M21 12H18.5M5.5 12H3M18.364 5.636L16.596 7.404M7.404 16.596L5.636 18.364M18.364 18.364L16.596 16.596M7.404 7.404L5.636 5.636M15.5 12A3.5 3.5 0 1 1 8.5 12A3.5 3.5 0 0 1 15.5 12Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="theme-toggle__moon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M20 15.5A8.5 8.5 0 0 1 8.5 4C8.175 4 7.854 4.018 7.538 4.054A8.5 8.5 0 1 0 19.946 16.462C19.982 16.146 20 15.825 20 15.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+
+          <span class="nav-divider" aria-hidden="true"></span>
+
+          <button
+          class="lang-toggle"
+          id="langToggle"
+          type="button"
+          aria-label="Change language"
+          data-lang-target="ar/contact.html"
+        >
+          العربية
+        </button>
+
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="siteNav"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="contact-main">
+      <div class="container">
+        <section class="contact-hero-card">
+          <p class="contact-hero-card__eyebrow">Contact</p>
+          <h1 class="contact-hero-card__title">Let’s Connect</h1>
+          <p class="contact-hero-card__text">
+            Ready to collaborate? I’d love to hear from you. Choose your
+            preferred way to get in touch.
+          </p>
+        </section>
+
+        <section class="contact-section">
+          <div class="contact-section__header">
+            <h2 class="contact-section__title">Quick Contact</h2>
+          </div>
+
+          <div class="quick-contact-grid quick-contact-grid--two">
+            <a
+              class="quick-card"
+              href="https://wa.me/201067919555"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact via WhatsApp"
+            >
+              <div class="quick-card__icon quick-card__icon--whatsapp">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12.04 3C7.07 3 3.03 6.98 3.03 11.88C3.03 13.44 3.45 14.96 4.25 16.29L3 21L7.87 19.78C9.15 20.46 10.59 20.82 12.04 20.82C17 20.82 21.05 16.84 21.05 11.94C21.05 7.04 17 3 12.04 3ZM16.97 15.56C16.76 16.14 15.76 16.67 15.25 16.75C14.8 16.82 14.25 16.85 12.45 16.11C10.14 15.16 8.64 12.79 8.52 12.63C8.4 12.46 7.59 11.39 7.59 10.29C7.59 9.19 8.16 8.65 8.37 8.43C8.58 8.21 8.83 8.15 8.97 8.15C9.11 8.15 9.25 8.15 9.37 8.16C9.49 8.17 9.65 8.11 9.82 8.52C10.03 9.03 10.52 10.2 10.57 10.31C10.62 10.42 10.66 10.55 10.58 10.71C10.51 10.88 10.47 10.98 10.33 11.13C10.19 11.28 10.04 11.46 9.92 11.59C9.78 11.74 9.63 11.9 9.8 12.18C9.97 12.46 10.57 13.41 11.43 14.17C12.54 15.14 13.46 15.44 13.78 15.58C14.1 15.72 14.28 15.7 14.43 15.53C14.58 15.35 15.08 14.78 15.25 14.52C15.42 14.27 15.59 14.31 15.87 14.42C16.16 14.52 17.68 15.25 17.92 15.37C18.16 15.49 18.32 15.55 18.37 15.64C18.42 15.72 18.42 16.14 18.21 16.72L16.97 15.56Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+
+              <div class="quick-card__content">
+                <h3>WhatsApp</h3>
+                <p>+20 106 791 9555</p>
+              </div>
+
+              <span class="quick-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 12H19M19 12L13 6M19 12L13 18"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </a>
+
+            <a
+              class="quick-card"
+              href="mailto:Elnady.mohamed.ramadan@gmail.com"
+              aria-label="Contact via email"
+            >
+              <div class="quick-card__icon quick-card__icon--email">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 7.5L11.38 13.03C11.74 13.3 12.26 13.3 12.62 13.03L20 7.5M6.4 19H17.6C18.44 19 18.86 19 19.19 18.84C19.48 18.7 19.7 18.48 19.84 18.19C20 17.86 20 17.44 20 16.6V7.4C20 6.56 20 6.14 19.84 5.81C19.7 5.52 19.48 5.3 19.19 5.16C18.86 5 18.44 5 17.6 5H6.4C5.56 5 5.14 5 4.81 5.16C4.52 5.3 4.3 5.52 4.16 5.81C4 6.14 4 6.56 4 7.4V16.6C4 17.44 4 17.86 4.16 18.19C4.3 18.48 4.52 18.7 4.81 18.84C5.14 19 5.56 19 6.4 19Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <div class="quick-card__content">
+                <h3>Email</h3>
+                <p>Elnady.mohamed.ramadan@gmail.com</p>
+              </div>
+
+              <span class="quick-card__arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 12H19M19 12L13 6M19 12L13 18"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="currentYear"></span> Muhammad Elnady. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

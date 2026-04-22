@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Muhammad Elnady</title>
+    <meta
+      name="description"
+      content="About page and CV of Muhammad Elnady."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/jpeg" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="about-page">
+    <!-- =========================================
+      HEADER / NAVBAR
+      Edit brand, nav labels, and links here
+    ========================================== -->
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand">
+          <!-- EDIT: Brand name -->
+          <span class="brand__text">Muhammad Elnady</span>
+        </a>
+
+        <div class="nav-actions">
+          <button
+            class="icon-btn theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle light and dark mode"
+            title="Toggle theme"
+          >
+            <span class="theme-toggle__sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3V5.5M12 18.5V21M21 12H18.5M5.5 12H3M18.364 5.636L16.596 7.404M7.404 16.596L5.636 18.364M18.364 18.364L16.596 16.596M7.404 7.404L5.636 5.636M15.5 12A3.5 3.5 0 1 1 8.5 12A3.5 3.5 0 0 1 15.5 12Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="theme-toggle__moon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M20 15.5A8.5 8.5 0 0 1 8.5 4C8.175 4 7.854 4.018 7.538 4.054A8.5 8.5 0 1 0 19.946 16.462C19.982 16.146 20 15.825 20 15.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+
+          <span class="nav-divider" aria-hidden="true"></span>
+
+          <button
+          class="lang-toggle"
+          id="langToggle"
+          type="button"
+          aria-label="Change language"
+          data-lang-target="ar/about.html"
+        >
+          العربية
+        </button>
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="siteNav"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="about-main">
+      <div class="container">
+        <!-- =========================================
+          ABOUT HERO / NAME BLOCK
+          EDIT: This is the easiest place to update your name,
+          title, and short summary later
+        ========================================== -->
+        <section class="about-hero">
+          <p class="about-eyebrow">Curriculum Vitae</p>
+          <h1 class="about-name">Muhammad Elnady</h1>
+          <p class="about-role">
+            Medical Student • Researcher • Academic Portfolio
+          </p>
+          <p class="about-updated">Last Updated: April, 2026</p>
+        </section>
+
+        <!-- =========================================
+          CONTACTS GRID
+          EDIT: Update personal and institutional contacts here
+        ========================================== -->
+        <section class="about-grid about-grid--top">
+          <article class="cv-card">
+            <h2 class="section-heading">Personal Contacts</h2>
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-label">Address</span>
+                <p>
+                  Suez Canal Buildings, Portawfik,<br />
+                  Hod El-Dars, Suez 43522, Egypt
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Phone</span>
+                <p><a href="tel:+201067919555">(+20) 106-791-9555</a></p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Academic Email</span>
+                <p>
+                  <a href="mailto:Mohamed.ramoe@med.sueuni.edu.eg">
+                    Mohamed.ramoe@med.sueuni.edu.eg
+                  </a>
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Secondary Email</span>
+                <p>
+                  <a href="mailto:Elnady.mohamed.ramadan@gmail.com">
+                    Elnady.mohamed.ramadan@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="cv-card">
+            <h2 class="section-heading">Medical School Contacts</h2>
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-label">Institution</span>
+                <p>Faculty of Medicine – Suez University</p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Address</span>
+                <p>Suez-Cairo Road, El Salam City, Suez 43512, Egypt</p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Phone</span>
+                <p><a href="tel:+20623523773">(+20) 623-523-773</a></p>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-label">Email</span>
+                <p>
+                  <a href="mailto:info@med.suezuni.edu.eg">
+                    info@med.suezuni.edu.eg
+                  </a>
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- =========================================
+          EDUCATION
+          EDIT: Keep each education entry in one timeline-item block
+        ========================================== -->
+        <section class="cv-section">
+          <div class="section-title-wrap">
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">2020 to 2025</div>
+            <div class="timeline-body">
+              <h3>Faculty of Medicine - Suez University, Egypt</h3>
+              <p class="timeline-subtitle">
+                Bachelor of Medicine &amp; Surgery "MBBCh" Degree
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <!-- =========================================
+          ACADEMIC EXPERIENCE
+        ========================================== -->
+        <section class="cv-section">
+          <div class="section-title-wrap">
+            <h2 class="section-title">Academic Experience</h2>
+          </div>
+
+          <article class="cv-card cv-card--tight">
+            <h3 class="subsection-title">MBBCh Course</h3>
+            <div class="timeline-item timeline-item--simple">
+              <div class="timeline-meta">2025</div>
+              <div class="timeline-body">
+                <p>MBBCh Degree with Honors (Top 5% of Class)</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="cv-card cv-card--tight">
+            <h3 class="subsection-title">USMLE</h3>
+            <div class="timeline-item timeline-item--simple">
+              <div class="timeline-meta">2024</div>
+              <div class="timeline-body">
+                <p>Passed USMLE Step 1 from first attempt.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="cv-card cv-card--tight">
+            <h3 class="subsection-title">Schooling Courses</h3>
+            <div class="timeline-item timeline-item--simple">
+              <div class="timeline-meta">2020</div>
+              <div class="timeline-body">
+                <p>
+                  General Certificate of Secondary Education (GSCE): 98.9%,
+                  with Excellent grades in Biological Sciences
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- =========================================
+          RESEARCH EXPERIENCE
+          EDIT: Each publication is a publication-item block
+        ========================================== -->
+        <section class="cv-section">
+          <div class="section-title-wrap">
+            <h2 class="section-title">Research Experience</h2>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication-item">
+              <div class="publication-date">August 2025</div>
+              <div class="publication-content">
+                <p>
+                  <strong>Co-author publication:</strong> Khalefa B, Awad AK,
+                  Gonnah AR, Negmeldin Aly Yassin M, Hamam NG, Eldeeb H,
+                  Ramadan M, Dway A, Alsalhi K, Osman MT, Alqeeq BF, Al-Tawil
+                  M, Sicouri S, Baudo M, Yamashita Y, Ramlawi B.
+                  “Cusp-overlap view versus three cusp coplanar view during
+                  transcatheter aortic valve replacement using self-expandable
+                  valves: a systematic review, meta-analysis and
+                  meta-regression.” <em>BMC Cardiovascular Disorders.</em>
+                  2025;25:619.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">July 2025</div>
+              <div class="publication-content">
+                <p>
+                  <strong>Co-author publication:</strong> Khalefa BB, Gonnah
+                  AR, Negmeldin Aly Yassin M, Fayed H, Arnaout M, Elkholy MKA,
+                  Ramadan M, Eletreby AM, Dway A, Eldeeb H, Abujabal AS,
+                  Roberts DH. “Impact of aortic angulation on outcomes in
+                  transcatheter aortic valve replacement with balloon-expandable
+                  and self-expanding valves: a systematic review and
+                  meta-analysis.” <em>Cardiovascular Intervention and
+                  Therapeutics.</em> 2025;40:746–766.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">June 2025</div>
+              <div class="publication-content">
+                <p>
+                  <strong>Co-author publication:</strong> Hamzah KA, Kurmasha
+                  YH, Shweliya MSA, Ramadan M, Badi MHI, Mahgoub AMA, Ellebedy
+                  M. “Internal vs. external jugular vein access for pediatric
+                  totally implantable venous ports: a systematic review and
+                  meta-analysis.” <em>Pediatric Surgery International.</em>
+                  2025;41:180.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">June 2025</div>
+              <div class="publication-content">
+                <p>
+                  <strong>Co-author publication:</strong> Elbahloul MA, Elgadi
+                  A, Ramadan M, Mohamed Amine H, Fayed H, Kasser ME, Hussein A,
+                  Labieb F. “Efficacy and safety of pemafibrate administration
+                  in patients with dyslipidemia: a systematic review and updated
+                  meta-analysis of randomized controlled trials.”
+                  <em>Annals of Medicine &amp; Surgery.</em>
+                  2025;87(6):3756–3767.
+                  <span class="doi">doi:10.1097/MS9.0000000000003264</span>
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">November 2024</div>
+              <div class="publication-content">
+                <p>
+                  <strong>Co-author abstract publication:</strong>
+                  K. Awad A, Khalefa B, R. Gonnah A, Negmeldin Aly Yassin M,
+                  G. Hamam N, Ramadan M, Dway A, Alsalhi K, T. Osman M,
+                  Sicouri S, Basel R. “Cusp-overlap view versus three cusp
+                  coplanar view during transcatheter aortic valve replacement
+                  using self-expandable valves: A meta-analysis of 5947
+                  patients.” <em>Circulation.</em>
+                  2024;150(Suppl_1):A4143899. Accepted for presentation at the
+                  American Heart Association (AHA) Scientific Sessions 2024 in
+                  Chicago, IL.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">October 2024</div>
+              <div class="publication-content">
+                <p>
+                  <strong>First-author publication:</strong>
+                  Ramadan M, Bashour G, Eldokmery E, Alkhawajah A, Alsalhi K,
+                  Badr Y, Emad A, Labieb F. “The efficacy and safety of oral
+                  and vaginal misoprostol versus dinoprostone on women
+                  experiencing labor: A systematic review and updated
+                  meta-analysis of 53 randomized controlled trials.”
+                  <em>Medicine.</em> 2024 Oct 4;103(40):e39861.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">March 2024</div>
+              <div class="publication-content">
+                <p>
+                  <strong>First-author abstract publication:</strong>
+                  Ramadan M, Bashour G, Eldokmery E, Dway A, Alsalhi K, Emad A,
+                  Labieb F. “Effects of statin therapy on patients with coronary
+                  artery bypass surgery: A systematic review and meta-analysis
+                  of randomized controlled trials.” <em>The Annals of The Royal
+                  College of Surgeons of England.</em> 2024;107(S1). Published
+                  as part of the ASiT Innovation Summit e-Posters.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication-item">
+              <div class="publication-date">January 2024</div>
+              <div class="publication-content">
+                <p>
+                  Sewidan A, Shokry AY, Ramadan M, Abd Elhamid HM.
+                  “Knowledge of Cervical Cancer and Human Papilloma Virus among
+                  Medical Students in Suez, Egypt.”
+                  <em>The Egyptian Journal of Hospital Medicine.</em>
+                  2024;94:600-6.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- =========================================
+          LEADERSHIP & EXTRACURRICULAR ACTIVITIES
+        ========================================== -->
+        <section class="cv-section">
+          <div class="section-title-wrap">
+            <h2 class="section-title">Leadership &amp; Extracurricular Activities</h2>
+          </div>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">May 2025 - Present</div>
+            <div class="timeline-body">
+              <h3>
+                Research Trainer, IFMSA-Egypt
+              </h3>
+              <p class="timeline-subtitle">
+                International Federation of Medical Students’ Associations – Egypt
+              </p>
+              <ul class="cv-list">
+                <li>Led and coordinated research activities within the association.</li>
+                <li>Assisted medical students in conducting research, analyzing data, and preparing manuscripts.</li>
+                <li>Organized workshops and training sessions on evidence-based medicine and scientific writing.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">September 2024 - Present</div>
+            <div class="timeline-body">
+              <h3>Research Support Division Director</h3>
+              <p class="timeline-subtitle">Suez Medical Students’ Association (SMSA-Suez)</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">September 2023 – September 2024</div>
+            <div class="timeline-body">
+              <h3>Research Support Division Assistant</h3>
+              <p class="timeline-subtitle">Suez Medical Students’ Association (SMSA-Suez)</p>
+            </div>
+          </article>
+        </section>
+
+        <!-- =========================================
+          HONORS & AWARDS
+        ========================================== -->
+        <section class="cv-section">
+          <div class="section-title-wrap">
+            <h2 class="section-title">Honors and Awards</h2>
+          </div>
+
+          <div class="award-list">
+            <article class="award-item">
+              <span class="award-year">2020–2024</span>
+              <p>
+                Honors in Internal Medicine, Surgery, Pediatrics, Obstetrics and
+                Gynecology and Basic Science.
+              </p>
+            </article>
+
+            <article class="award-item">
+              <span class="award-year">2025</span>
+              <p>Honors in MBBCh Degree (Top 5% of Class).</p>
+            </article>
+
+            <article class="award-item">
+              <span class="award-year">2025</span>
+              <p>Awarded for having International Research Publications.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- =========================================
+          CLINICAL EXPERIENCE
+        ========================================== -->
+        <section class="cv-section">
+          <div class="section-title-wrap">
+            <h2 class="section-title">Clinical Experience</h2>
+          </div>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">November 2022</div>
+            <div class="timeline-body">
+              <h3>Clinical Rotation in Obstetrics and Gynecology Department</h3>
+              <p class="timeline-subtitle">Suez General Hospital, Egypt</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">March 2023</div>
+            <div class="timeline-body">
+              <h3>Clinical Rotation in Pediatrics Department</h3>
+              <p class="timeline-subtitle">Suez General Hospital, Egypt</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">November 2023</div>
+            <div class="timeline-body">
+              <h3>Clinical Rotation in General Surgery Department</h3>
+              <p class="timeline-subtitle">Suez General Hospital, Egypt</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">March 2024</div>
+            <div class="timeline-body">
+              <h3>Clinical Rotation in Internal Medicine Department</h3>
+              <p class="timeline-subtitle">Suez General Hospital, Egypt</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="currentYear"></span> Muhammad Elnady. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

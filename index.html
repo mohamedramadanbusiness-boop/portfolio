@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Elnady | Portfolio</title>
+    <meta
+      name="description"
+      content="Muhammad Elnady - Physician, Medical Researcher, SRMA, and Medical Writer."
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/jpeg" href="assets/img/favicon.png" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="home-page">
+    <!-- =========================================
+      HEADER / NAVBAR
+      Edit brand name, nav labels, and links here
+    ========================================== -->
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand">
+          <!-- EDIT: Your logo / name -->
+          <span class="brand__text">Muhammad Elnady</span>
+        </a>
+
+        <div class="nav-actions">
+          <!-- Theme Toggle -->
+          <button
+            class="icon-btn theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle light and dark mode"
+            title="Toggle theme"
+          >
+            <span class="theme-toggle__sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3V5.5M12 18.5V21M21 12H18.5M5.5 12H3M18.364 5.636L16.596 7.404M7.404 16.596L5.636 18.364M18.364 18.364L16.596 16.596M7.404 7.404L5.636 5.636M15.5 12A3.5 3.5 0 1 1 8.5 12A3.5 3.5 0 0 1 15.5 12Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="theme-toggle__moon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M20 15.5A8.5 8.5 0 0 1 8.5 4C8.175 4 7.854 4.018 7.538 4.054A8.5 8.5 0 1 0 19.946 16.462C19.982 16.146 20 15.825 20 15.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+
+          <span class="nav-divider" aria-hidden="true"></span>
+
+          <!-- Language Toggle -->
+          <!-- EDIT: Change href later if you create Arabic version -->
+          <button
+          class="lang-toggle"
+          id="langToggle"
+          type="button"
+          aria-label="Change language"
+          data-lang-target="ar/index.html"
+        >
+          العربية
+        </button>
+
+          <!-- Mobile Menu Button -->
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="siteNav"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <!-- Navigation -->
+          <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <!-- EDIT: Update links as needed -->
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================================
+        HERO SECTION
+        Edit image, name, subtitle, social links, and CTA links here
+      ========================================== -->
+      <section class="hero">
+        <div class="hero__bg hero__bg--one"></div>
+        <div class="hero__bg hero__bg--two"></div>
+
+        <div class="container hero__container">
+          <!-- EDIT: Replace with your image path -->
+          <div class="hero__avatar-wrap">
+            <img
+              class="hero__avatar"
+              src="assets/img/profile.jpg"
+              alt="Portrait of Muhammad Elnady"
+            />
+          </div>
+
+          <!-- EDIT: Name -->
+          <h1 class="hero__title">Muhammad Elnady</h1>
+
+          <!-- EDIT: Subtitle -->
+          <p class="hero__subtitle">
+            Physician &amp; Medical Researcher | SRMA | Medical Writing
+          </p>
+
+          <!-- Social Links -->
+          <!-- EDIT: Replace # with your real URLs -->
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://www.facebook.com/danaa.2002" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M14 8H16V5H13.5C10.7386 5 9 6.73858 9 9.5V12H6V15H9V21H12.5V15H15.5L16 12H12.5V9.8C12.5 8.72 12.72 8 14 8Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://x.com/dana_5131" target="_blank" rel="noopener noreferrer" aria-label="X">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M4 4L10.9 13.2L4.43 20H6.9L12 14.64L16 20H20L12.83 10.4L18.86 4H16.39L11.72 8.96L8 4H4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://t.me/muhammad_ramaadan" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21.5 4.5L18.56 19.14C18.34 20.18 17.77 20.44 16.9 19.96L12.17 16.47L9.89 18.67C9.64 18.92 9.43 19.13 8.95 19.13L9.29 14.31L18.06 6.38C18.44 6.04 17.98 5.85 17.48 6.18L6.64 13L1.97 11.54C0.96 11.22 0.94 10.52 2.18 10.03L20.44 2.99C21.29 2.69 22.03 3.19 21.5 4.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/muhammad-ramadan-b56132204" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M6.94 8.5A1.94 1.94 0 1 0 6.94 4.62A1.94 1.94 0 0 0 6.94 8.5ZM5.25 9.75H8.63V19.5H5.25V9.75ZM10.75 9.75H13.99V11.08H14.04C14.49 10.22 15.58 9.31 17.22 9.31C20.62 9.31 21.25 11.55 21.25 14.46V19.5H17.88V15.03C17.88 13.97 17.86 12.6 16.39 12.6C14.89 12.6 14.66 13.77 14.66 14.95V19.5H11.28V9.75H10.75Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://orcid.org/0009-0005-8263-1694" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.8" />
+                <circle cx="8" cy="8.1" r="1.2" fill="currentColor" />
+                <path
+                  d="M7.1 10.5H9V16.3H7.1V10.5ZM10.5 10.5H13.2C15.33 10.5 16.95 11.65 16.95 13.38C16.95 15.06 15.57 16.3 13.24 16.3H10.5V10.5ZM12.25 12V14.8H13.18C14.44 14.8 15.11 14.19 15.11 13.4C15.11 12.6 14.42 12 13.16 12H12.25Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://www.researchgate.net/profile/Mohamed-Ramadan-182" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M5 6.5H10.2C12.84 6.5 14.35 7.8 14.35 10.1C14.35 11.68 13.5 12.77 12.08 13.2L14.7 17.5H12.27L9.95 13.53H7.18V17.5H5V6.5ZM7.18 8.35V11.8H10C11.45 11.8 12.13 11.26 12.13 10.08C12.13 8.93 11.43 8.35 10 8.35H7.18Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M19.2 9.9C17.22 9.9 15.75 11.39 15.75 13.44C15.75 15.53 17.19 17 19.23 17C20.53 17 21.59 16.4 22.06 15.37H20.08C19.82 15.73 19.35 15.93 18.84 15.93C17.95 15.93 17.31 15.39 17.16 14.54H22.22C22.25 14.34 22.27 14.11 22.27 13.89C22.27 11.55 20.98 9.9 19.2 9.9ZM17.2 13.22C17.34 12.42 17.93 10.97 19.19 10.97C20.36 10.97 20.9 11.95 20.95 13.22H17.2Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://scholar.google.com/citations?user=Tmoz6ccAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3L2 9L12 15L20 10.2V17H22V9L12 3ZM6.5 13.2V16.1C6.5 18.1 8.96 19.75 12 19.75C15.04 19.75 17.5 18.1 17.5 16.1V13.2L12 16.1L6.5 13.2Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a href="https://www.upwork.com/freelancers/~01d7a597a77e3b06c5" target="_blank" rel="noopener noreferrer" aria-label="Upwork">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M15.25 8.4C14.02 8.4 12.94 8.93 12.17 9.86C11.56 8.88 11.06 7.75 10.71 6.5H8.51V12.25C8.51 13.91 7.63 15.09 6.25 15.09C4.9 15.09 4 13.97 4 12.25V6.5H1.8V12.28C1.8 15.22 3.67 17.17 6.25 17.17C8.78 17.17 10.71 15.22 10.71 12.28V11.83C11.09 12.57 11.54 13.24 12.05 13.82L11.99 14.16C11.5 16.85 13.28 19.5 16.27 19.5C18.93 19.5 21.1 17.34 21.1 14.66C21.1 11.48 18.56 8.4 15.25 8.4ZM16.18 17.39C14.58 17.39 13.62 16.03 13.88 14.58L13.91 14.4C14.81 15.12 15.81 15.53 16.71 15.53C17.32 15.53 17.87 15.37 18.31 15.08C18.12 16.39 17.24 17.39 16.18 17.39ZM16.79 13.48C16.16 13.48 15.36 13.14 14.58 12.52C14.97 11.36 15.95 10.49 17.05 10.49C18.46 10.49 19.43 11.88 19.43 13.63C19.43 13.83 19.42 14.02 19.39 14.2C18.93 13.75 18.1 13.48 16.79 13.48Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- CTA Buttons -->
+          <!-- EDIT: Update button links -->
+          <div class="hero__cta">
+            <a href="about.html" class="btn btn--secondary">About Me</a>
+            <a href="contact.html" class="btn btn--primary">Contact Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================
+      FOOTER
+      Edit footer text/links here
+    ========================================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="currentYear"></span> Muhammad Elnady. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
